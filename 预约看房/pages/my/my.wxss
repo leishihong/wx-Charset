@@ -1,0 +1,43 @@
+.my-login{
+    height: 200rpx;
+    width: 100%;
+    background: orange;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+  
+    box-sizing: border-box;
+}
+._left{
+    width: 130rpx;
+    height: 130rpx;
+}
+._left image{
+    width: 130rpx;
+    height: 130rpx;
+    border-radius: 50%;
+}
+._right{
+    flex: 1;
+    padding-left:20px;
+    background: url('../../images/xiangyou1.png') no-repeat 98% 50% / auto 36rpx;
+}
+._right .my-title{
+    font-size: 20px;
+    color: beige;
+    
+
+}
+.my-item{
+	border-bottom: 1rpx solid #ddd;
+	padding: 20rpx;
+	font-size: 32rpx;
+	background: #fff url('../../images/xiangyou1.png') no-repeat 98% 50% / auto 36rpx;
+}
+.my-item image{
+	width: 40rpx;
+	height: 40rpx;
+	margin-right: 20rpx;
+	vertical-align: -6rpx;
+}
